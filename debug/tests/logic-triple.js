@@ -1,7 +1,7 @@
 //(!x || y) && !(z && !y)
 const util = require('util');
 
-const NeuronNetwork = require('../neural/NeuronNetwork');
+const NeuronNetwork = require('../../neural/NeuronNetwork');
 neuronNetwork = new NeuronNetwork(3, 1);
 
 // console.log(util.inspect(neuronNetwork, {depth: null}));

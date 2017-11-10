@@ -1,4 +1,4 @@
-const NeuronNetwork = require('../neural/NeuronNetwork');
+const NeuronNetwork = require('../../neural/NeuronNetwork');
 neuronNetwork = new NeuronNetwork(2, 1);
 
 neuronNetwork.train([
