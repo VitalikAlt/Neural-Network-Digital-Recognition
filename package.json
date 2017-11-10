@@ -1,0 +1,13 @@
+{
+  "name": "Digital recognition",
+  "version": "1.0.0",
+  "description": "Recognizing hand-written digits from MNIST dataset with Brain.js. Neural Networks example.",
+  "main": "main.js",
+  "dependencies": {
+    "mnist": "git+https://github.com/ApelSYN/mnist.git"
+  },
+  "engine": "node >= 4.2.0",
+  "devDependencies": {
+    "webpack": "^3.8.1"
+  }
+}
